@@ -1,0 +1,41 @@
+[
+  {
+    "id": 1,
+    "FirstName": "User1",
+    "LastName": "UserLastName",
+    "Nationality": "Lebanese",
+    "PhoneNumber": "7666666",
+    "LastMonthBill": "999",
+    "Address": "Beirut",
+    "ServicesSubscribed": "10",
+    "Age": "26"
+  },
+  {
+    "id": 2,
+    "FirstName": "Jane",
+    "LastName": "Smith",
+    "Nationality": "Lebanese",
+    "PhoneNumber": "7666666",
+    "LastMonthBill": "999",
+    "Address": "Beirut",
+    "ServicesSubscribed": "15",
+    "Age": "28",
+    "tableData": {
+      "id": 1
+    }
+  },
+  {
+    "id": 3,
+    "FirstName": "Bob",
+    "LastName": "Johnson",
+    "Nationality": "Lebanese",
+    "PhoneNumber": "7666666",
+    "LastMonthBill": "999",
+    "Address": "Beirut",
+    "ServicesSubscribed": "19",
+    "Age": "23",
+    "tableData": {
+      "id": 2
+    }
+  }
+]

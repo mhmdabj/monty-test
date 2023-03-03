@@ -1,0 +1,9 @@
+
+.MuiTablePagination-displayedRows, .MuiTablePagination-selectLabel {
+    margin: 0;
+}
+
+.detailPanel {
+    font-size: 25px;
+    color: white;
+}

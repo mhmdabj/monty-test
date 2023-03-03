@@ -1,0 +1,26 @@
+{
+  "labels": ["Monday", "Tuesday", "Wednesday"],
+  "datasets": [
+    {
+      "label": "Messages Sent",
+      "data": [115, 167, 235],
+      "backgroundColor": "rgba(255, 165, 0, 0.2)",
+      "borderColor": "rgba(255,165,0,1)",
+      "borderWidth": 1
+    },
+	{
+      "label": "Messages Received",
+      "data": [108, 155, 231],
+      "backgroundColor": "rgba(60, 179, 113, 0.2)",
+      "borderColor": "rgba(60,179,113,1)",
+      "borderWidth": 1
+    },
+	{
+      "label": "Messages Failed",
+      "data": [7, 12, 4],
+      "backgroundColor": "rgba(255, 0, 0, 0.2)",
+      "borderColor": "rgba(255,0,0,1)",
+      "borderWidth": 1
+    }
+  ]
+}
