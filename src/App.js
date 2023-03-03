@@ -1,6 +1,5 @@
 import React, {Component} from 'react';
 import {BrowserRouter as Router, Route, Routes} from 'react-router-dom';
-
 import Dashboard from './components/Dashboard';
 import DragDrop from './components/DragDrop';
 import Table from './components/Table';
@@ -12,7 +11,6 @@ import {MDBBtn} from "mdb-react-ui-kit";
 class App extends Component {
     render() {
         const loggedInUser = localStorage.getItem("auth_token");
-
         if (!loggedInUser) {
             return (<Login/>);
         } else {
@@ -32,7 +30,6 @@ class App extends Component {
                                 Logout
                             </MDBBtn>
                         </div>
-                        {/*<hr/>*/}
                         <Routes>
                             <Route exact path='/' element={<Dashboard/>}/>
                             <Route path='/table' element={<Table/>}/>
@@ -43,8 +40,6 @@ class App extends Component {
                 </Router>
             );
         }
-
-
     }
 }
 

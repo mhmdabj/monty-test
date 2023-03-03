@@ -9,10 +9,7 @@ import {MDBCol} from "mdb-react-ui-kit";
 class Dashboard extends Component {
 
     componentDidMount() {
-        // console.log(window.location.pathname);
         document.getElementById("mySidenav").style.width = "0";
-    }
-    componentWillUnmount() {
     }
     render() {
         return (

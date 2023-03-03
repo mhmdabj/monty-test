@@ -8,10 +8,6 @@ class Navbar extends Component {
         this.openNav = this.openNav.bind(this);
     }
 
-    componentDidMount() {
-        // if ()
-    }
-
     openNav() {
         document.getElementById("mySidenav").style.width = "250px";
     }

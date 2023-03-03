@@ -83,11 +83,7 @@ class Table extends Component {
 
         const defaultMaterialTheme = createTheme();
         return (
-            <div style={{width: '100%', height: '100%'}}>
-                <link
-                    rel="stylesheet"
-                    href="https://fonts.googleapis.com/icon?family=Material+Icons"
-                />
+            <div className="w-100 h-100">
                 <ThemeProvider theme={defaultMaterialTheme}>
                     <div>
                         <MaterialTable
